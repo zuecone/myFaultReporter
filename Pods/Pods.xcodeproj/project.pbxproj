@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB4B5EA27F7C0599C4621322C8056F6 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57EED7A267BC9746F565565964FAD89F /* Pods-myFaultReporterTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF8E0F4C7A208CFB46DCE9776A33E93 /* Pods-myFaultReporterTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C9B7DC4C5C26AA0661B263C4FA1AB6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6316841C9B3CDCCB00E7D70D71FA3B0F /* Pods-myFaultReporterUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49A73A7F030C323FD880A7A3C4C0689 /* Pods-myFaultReporterUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 007DE734DE931D91806D860DAF4DAB39 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AC2DC44CC1F1E53FDA5655D936A53EA /* Pods-myFaultReporter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB82EB780524B270CEDE8DBB7A227B66 /* Pods-myFaultReporter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9004D221261312CFE722A27B64C80005 /* Pods-myFaultReporterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 862927590363DE179922F30D4F9B6BDE /* Pods-myFaultReporterUITests-dummy.m */; };
+		958DFCE712930A4AE2A3B496EC894D51 /* Pods-myFaultReporter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F02D74C298C551E23E5C8F751F621E /* Pods-myFaultReporter-dummy.m */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = E68371CA35FB939CF57C1E2A715CE5FA /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8A03E8C956922F2BE60746ECBDE19D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EA751543943515A1FDC43B4F22FEDFC1 /* Pods-myFaultReporterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B16B749F0710A0F0265BFF0423E09DAE /* Pods-myFaultReporterTests-dummy.m */; };
+		F4874A3B0BD12612D310EA09AD5B0D21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D42EEB55E80FCEA8CB63145D9998D5D /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1059E610DC47BE46D1E48DFF213FD9 /* GoogleToolboxForMac-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900BEEF2A0B06C513FFB979B278AF14A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007DE734DE931D91806D860DAF4DAB39 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		04F02D74C298C551E23E5C8F751F621E /* Pods-myFaultReporter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myFaultReporter-dummy.m"; sourceTree = "<group>"; };
+		12DD5792F2215BCD09C251024D54BFBE /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		13213147994C6F5B945738F797C8F11A /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		137B9313536B25271BF5A607066F7EF3 /* Pods_myFaultReporterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myFaultReporterUITests.framework; path = "Pods-myFaultReporterUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB4B5EA27F7C0599C4621322C8056F6 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		20973164FE9600A3478DACF7095E1DD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F012044FFEE045D4C7097452A1BF4A /* Pods-myFaultReporterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-myFaultReporterTests.modulemap"; sourceTree = "<group>"; };
+		3CC0C22EE365A946BBFA7BD9A28CD353 /* Pods-myFaultReporterUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-myFaultReporterUITests.modulemap"; sourceTree = "<group>"; };
+		3D42EEB55E80FCEA8CB63145D9998D5D /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		3D7958DC062889AB8D8E26D3DD4C6592 /* Pods-myFaultReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFaultReporter.debug.xcconfig"; sourceTree = "<group>"; };
+		3F548DD92F0216FE4E3E39E64879E547 /* Pods-myFaultReporterUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myFaultReporterUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4B1059E610DC47BE46D1E48DFF213FD9 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		4FF8E0F4C7A208CFB46DCE9776A33E93 /* Pods-myFaultReporterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myFaultReporterTests-umbrella.h"; sourceTree = "<group>"; };
+		56854425C30D15662A7476CD5589DC7D /* Pods-myFaultReporterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myFaultReporterTests-frameworks.sh"; sourceTree = "<group>"; };
+		5C91FBB8256D8C1F0E7D846C89FABF42 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		66CC6075827D7E49FE1475BC404981C6 /* Pods-myFaultReporterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myFaultReporterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6739769A8360F9C1447E97EA3C6C876C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		6F3D089FD85403A9EDC9B61DBA8E92E3 /* Pods-myFaultReporterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myFaultReporterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7636153530D5A7832EE489AD56CEA52E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785CC24B95C1BC21A655148EF5CA0114 /* Pods-myFaultReporterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFaultReporterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		854BE00F9DD3DDAC46268C44F6C45237 /* Pods-myFaultReporterUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myFaultReporterUITests-resources.sh"; sourceTree = "<group>"; };
+		862927590363DE179922F30D4F9B6BDE /* Pods-myFaultReporterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myFaultReporterUITests-dummy.m"; sourceTree = "<group>"; };
+		868C638A920132FCD6F343F087F1F168 /* Pods-myFaultReporterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFaultReporterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		939D0DC0CD3F483EFD11CCCEA6F5B9B5 /* Pods_myFaultReporterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myFaultReporterTests.framework; path = "Pods-myFaultReporterTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D6650505B1CE8063A47C3F4E668CBA /* Pods-myFaultReporterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFaultReporterTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C8DD2B996AAE6BBE7142F9BF903F308 /* Pods-myFaultReporterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myFaultReporterTests-resources.sh"; sourceTree = "<group>"; };
+		A436F19797E27A7EA73E5AD0BA57CB62 /* Pods-myFaultReporter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myFaultReporter-resources.sh"; sourceTree = "<group>"; };
+		ADCFDF3D47AE554DBC74E3E2B63958AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16B749F0710A0F0265BFF0423E09DAE /* Pods-myFaultReporterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myFaultReporterTests-dummy.m"; sourceTree = "<group>"; };
+		B504282E16589B757659B6F1B1452B08 /* Pods-myFaultReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFaultReporter.release.xcconfig"; sourceTree = "<group>"; };
+		B9BF4B43ABF7543E37C308528405238E /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		BA4ABFCE643FDB264D8B487570E62C6E /* Pods-myFaultReporter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-myFaultReporter.modulemap"; sourceTree = "<group>"; };
+		BDF588604CC0718130D95380275B11EA /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		C1C159098126CA00482C73745BF975AB /* Pods_myFaultReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myFaultReporter.framework; path = "Pods-myFaultReporter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38F74B2DC0E0DDC771B62466C6A7E0A /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		C523766204FB169FBCE524CE0792F3B2 /* Pods-myFaultReporter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myFaultReporter-frameworks.sh"; sourceTree = "<group>"; };
+		C5F9677CFC8D53C259A59E09305AD97C /* Pods-myFaultReporter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myFaultReporter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1C93DB8C9C9CE96BA0D5329E2D1620D /* Pods-myFaultReporterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFaultReporterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E68371CA35FB939CF57C1E2A715CE5FA /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		E70A5727828CFC508C20149BA3737287 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92524D8673AE859C65AFAEC52935647 /* Pods-myFaultReporterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myFaultReporterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9B1302C6500524BC3F3011D680B7C35 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		EA514F396800E73F4625C9F45A2434F9 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		EDBE127549FEF95FAFDAB136219CD0AA /* Pods-myFaultReporter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myFaultReporter-acknowledgements.plist"; sourceTree = "<group>"; };
+		F467634CDFAEA6EE7B35A003097AA7E4 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49A73A7F030C323FD880A7A3C4C0689 /* Pods-myFaultReporterUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myFaultReporterUITests-umbrella.h"; sourceTree = "<group>"; };
+		F64027CA77A6C2232FD59BDA47E091D2 /* Pods-myFaultReporterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myFaultReporterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F680B168E257CFA48CA00D40C1F4033F /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		F9EA5FA1C0C0412F4D7473DD6B2C1E96 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		FB82EB780524B270CEDE8DBB7A227B66 /* Pods-myFaultReporter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myFaultReporter-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		318FD97F84AE8A64AE6BA772158B22A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4874A3B0BD12612D310EA09AD5B0D21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C696DCAF99EBFFEE7A5697AF89B63C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A03E8C956922F2BE60746ECBDE19D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC2331F92C019BF580B65533743228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9B7DC4C5C26AA0661B263C4FA1AB6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116386C030CC95007D6693CF3C33ECBD /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8172176BFE040C6F513C9587838E95B9 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		216ABBE6E278207939800E47E5AC0F9B /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				595ED089703A1412BCF925D3CF593228 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		25B4C493AF17CCD1BFA6BAA76AF61545 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F2784CB53A9A84E1E68ECB149F89D50F /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		2E43D4DABFDB2F1AB4AF1BBADB0ADE49 /* Pods-myFaultReporter */ = {
+			isa = PBXGroup;
+			children = (
+				E70A5727828CFC508C20149BA3737287 /* Info.plist */,
+				BA4ABFCE643FDB264D8B487570E62C6E /* Pods-myFaultReporter.modulemap */,
+				C5F9677CFC8D53C259A59E09305AD97C /* Pods-myFaultReporter-acknowledgements.markdown */,
+				EDBE127549FEF95FAFDAB136219CD0AA /* Pods-myFaultReporter-acknowledgements.plist */,
+				04F02D74C298C551E23E5C8F751F621E /* Pods-myFaultReporter-dummy.m */,
+				C523766204FB169FBCE524CE0792F3B2 /* Pods-myFaultReporter-frameworks.sh */,
+				A436F19797E27A7EA73E5AD0BA57CB62 /* Pods-myFaultReporter-resources.sh */,
+				FB82EB780524B270CEDE8DBB7A227B66 /* Pods-myFaultReporter-umbrella.h */,
+				3D7958DC062889AB8D8E26D3DD4C6592 /* Pods-myFaultReporter.debug.xcconfig */,
+				B504282E16589B757659B6F1B1452B08 /* Pods-myFaultReporter.release.xcconfig */,
+			);
+			name = "Pods-myFaultReporter";
+			path = "Target Support Files/Pods-myFaultReporter";
+			sourceTree = "<group>";
+		};
+		32A72313053F16398004D4949A842F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13213147994C6F5B945738F797C8F11A /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45B1DE1ECA9166113DBE48E20CA99E19 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				32A72313053F16398004D4949A842F14 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		4B821A259B0077B91D78A00B1D87D584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F680B168E257CFA48CA00D40C1F4033F /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54A795821EF006DB1699F3F4AD3A566E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				216ABBE6E278207939800E47E5AC0F9B /* Firebase */,
+				E0106EFF3A59DDF902DEFC88AE659648 /* FirebaseAnalytics */,
+				45B1DE1ECA9166113DBE48E20CA99E19 /* FirebaseCore */,
+				BFD6D28BAF2925AF19960B8FE1C86F4A /* FirebaseDatabase */,
+				A22D82499D17197A52443FF38805D189 /* FirebaseInstanceID */,
+				116386C030CC95007D6693CF3C33ECBD /* GoogleInterchangeUtilities */,
+				25B4C493AF17CCD1BFA6BAA76AF61545 /* GoogleSymbolUtilities */,
+				978AA889AB7FE5747943BE91EDA22661 /* GoogleToolboxForMac */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		595ED089703A1412BCF925D3CF593228 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EA514F396800E73F4625C9F45A2434F9 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				54A795821EF006DB1699F3F4AD3A566E /* Pods */,
+				A15BC05FF19E9BBF48EC67E14539F5CA /* Products */,
+				C06A45E015CF7491222EF64FBD6D14D3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8172176BFE040C6F513C9587838E95B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C91FBB8256D8C1F0E7D846C89FABF42 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94245928FD84B604D23893DBD89D6442 /* Pods-myFaultReporterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADCFDF3D47AE554DBC74E3E2B63958AB /* Info.plist */,
+				3CC0C22EE365A946BBFA7BD9A28CD353 /* Pods-myFaultReporterUITests.modulemap */,
+				F64027CA77A6C2232FD59BDA47E091D2 /* Pods-myFaultReporterUITests-acknowledgements.markdown */,
+				66CC6075827D7E49FE1475BC404981C6 /* Pods-myFaultReporterUITests-acknowledgements.plist */,
+				862927590363DE179922F30D4F9B6BDE /* Pods-myFaultReporterUITests-dummy.m */,
+				3F548DD92F0216FE4E3E39E64879E547 /* Pods-myFaultReporterUITests-frameworks.sh */,
+				854BE00F9DD3DDAC46268C44F6C45237 /* Pods-myFaultReporterUITests-resources.sh */,
+				F49A73A7F030C323FD880A7A3C4C0689 /* Pods-myFaultReporterUITests-umbrella.h */,
+				D1C93DB8C9C9CE96BA0D5329E2D1620D /* Pods-myFaultReporterUITests.debug.xcconfig */,
+				868C638A920132FCD6F343F087F1F168 /* Pods-myFaultReporterUITests.release.xcconfig */,
+			);
+			name = "Pods-myFaultReporterUITests";
+			path = "Target Support Files/Pods-myFaultReporterUITests";
+			sourceTree = "<group>";
+		};
+		978AA889AB7FE5747943BE91EDA22661 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				A56E1DB685EA2993FAD7C944A77CC5E0 /* Defines */,
+				C4693B32A79AE8CAF7F50DB5934804FF /* NSData+zlib */,
+				FCF652D4C93439728FAF31F266C4ADEA /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		A15BC05FF19E9BBF48EC67E14539F5CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F467634CDFAEA6EE7B35A003097AA7E4 /* GoogleToolboxForMac.framework */,
+				C1C159098126CA00482C73745BF975AB /* Pods_myFaultReporter.framework */,
+				939D0DC0CD3F483EFD11CCCEA6F5B9B5 /* Pods_myFaultReporterTests.framework */,
+				137B9313536B25271BF5A607066F7EF3 /* Pods_myFaultReporterUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A22D82499D17197A52443FF38805D189 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				F9EA5FA1C0C0412F4D7473DD6B2C1E96 /* FIRInstanceID.h */,
+				F4478FB86299890A26B1F5747BAEF3A4 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		A2BCE52DC4E2E2E55A06EEA8D1FA06F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6739769A8360F9C1447E97EA3C6C876C /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A56E1DB685EA2993FAD7C944A77CC5E0 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				1AB4B5EA27F7C0599C4621322C8056F6 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFD6D28BAF2925AF19960B8FE1C86F4A /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				4B821A259B0077B91D78A00B1D87D584 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		C06A45E015CF7491222EF64FBD6D14D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E43D4DABFDB2F1AB4AF1BBADB0ADE49 /* Pods-myFaultReporter */,
+				F55BAB646AC07B18C38DCDD174D5F10C /* Pods-myFaultReporterTests */,
+				94245928FD84B604D23893DBD89D6442 /* Pods-myFaultReporterUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4693B32A79AE8CAF7F50DB5934804FF /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				E68371CA35FB939CF57C1E2A715CE5FA /* GTMNSData+zlib.h */,
+				3D42EEB55E80FCEA8CB63145D9998D5D /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		E0106EFF3A59DDF902DEFC88AE659648 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				A2BCE52DC4E2E2E55A06EEA8D1FA06F4 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		F2784CB53A9A84E1E68ECB149F89D50F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDF588604CC0718130D95380275B11EA /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4478FB86299890A26B1F5747BAEF3A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF4B43ABF7543E37C308528405238E /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F55BAB646AC07B18C38DCDD174D5F10C /* Pods-myFaultReporterTests */ = {
+			isa = PBXGroup;
+			children = (
+				20973164FE9600A3478DACF7095E1DD6 /* Info.plist */,
+				35F012044FFEE045D4C7097452A1BF4A /* Pods-myFaultReporterTests.modulemap */,
+				E92524D8673AE859C65AFAEC52935647 /* Pods-myFaultReporterTests-acknowledgements.markdown */,
+				6F3D089FD85403A9EDC9B61DBA8E92E3 /* Pods-myFaultReporterTests-acknowledgements.plist */,
+				B16B749F0710A0F0265BFF0423E09DAE /* Pods-myFaultReporterTests-dummy.m */,
+				56854425C30D15662A7476CD5589DC7D /* Pods-myFaultReporterTests-frameworks.sh */,
+				9C8DD2B996AAE6BBE7142F9BF903F308 /* Pods-myFaultReporterTests-resources.sh */,
+				4FF8E0F4C7A208CFB46DCE9776A33E93 /* Pods-myFaultReporterTests-umbrella.h */,
+				785CC24B95C1BC21A655148EF5CA0114 /* Pods-myFaultReporterTests.debug.xcconfig */,
+				94D6650505B1CE8063A47C3F4E668CBA /* Pods-myFaultReporterTests.release.xcconfig */,
+			);
+			name = "Pods-myFaultReporterTests";
+			path = "Target Support Files/Pods-myFaultReporterTests";
+			sourceTree = "<group>";
+		};
+		FCF652D4C93439728FAF31F266C4ADEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12DD5792F2215BCD09C251024D54BFBE /* GoogleToolboxForMac.modulemap */,
+				C38F74B2DC0E0DDC771B62466C6A7E0A /* GoogleToolboxForMac.xcconfig */,
+				4B1059E610DC47BE46D1E48DFF213FD9 /* GoogleToolboxForMac-dummy.m */,
+				E9B1302C6500524BC3F3011D680B7C35 /* GoogleToolboxForMac-prefix.pch */,
+				007DE734DE931D91806D860DAF4DAB39 /* GoogleToolboxForMac-umbrella.h */,
+				7636153530D5A7832EE489AD56CEA52E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4943AC64E591CB78CAE79D07C907B250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6316841C9B3CDCCB00E7D70D71FA3B0F /* Pods-myFaultReporterUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64707573AB1690C794964CE25F2416A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC2DC44CC1F1E53FDA5655D936A53EA /* Pods-myFaultReporter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DBCE1CFEB812298EF32A76440756D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EED7A267BC9746F565565964FAD89F /* Pods-myFaultReporterTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = F467634CDFAEA6EE7B35A003097AA7E4 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FD5713F6C78535FDF9A661DE1D50C07 /* Pods-myFaultReporterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F650B18F79FC01FE7AA7E2E8A82979AF /* Build configuration list for PBXNativeTarget "Pods-myFaultReporterUITests" */;
+			buildPhases = (
+				A7D1ABD74B0EF5EC7C7EC77520DDAC0C /* Sources */,
+				318FD97F84AE8A64AE6BA772158B22A6 /* Frameworks */,
+				4943AC64E591CB78CAE79D07C907B250 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-myFaultReporterUITests";
+			productName = "Pods-myFaultReporterUITests";
+			productReference = 137B9313536B25271BF5A607066F7EF3 /* Pods_myFaultReporterUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B3335D5AE0DD673F8F50038D6B47717 /* Pods-myFaultReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B938DADE9C35AB0045CF69C34052C3B4 /* Build configuration list for PBXNativeTarget "Pods-myFaultReporter" */;
+			buildPhases = (
+				F6838C91EF55F63072FACB1E9B0E8D46 /* Sources */,
+				D7AC2331F92C019BF580B65533743228 /* Frameworks */,
+				64707573AB1690C794964CE25F2416A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3EAD3F4435F83CF72009C73BBD8EAE /* PBXTargetDependency */,
+			);
+			name = "Pods-myFaultReporter";
+			productName = "Pods-myFaultReporter";
+			productReference = C1C159098126CA00482C73745BF975AB /* Pods_myFaultReporter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3F7523730FD576457BFDF8A61846752 /* Pods-myFaultReporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E35144A4B8C9FA782D9D7304FFC3384 /* Build configuration list for PBXNativeTarget "Pods-myFaultReporterTests" */;
+			buildPhases = (
+				7B36FDE811AEFDED9998D201925C81AE /* Sources */,
+				C696DCAF99EBFFEE7A5697AF89B63C74 /* Frameworks */,
+				C5DBCE1CFEB812298EF32A76440756D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-myFaultReporterTests";
+			productName = "Pods-myFaultReporterTests";
+			productReference = 939D0DC0CD3F483EFD11CCCEA6F5B9B5 /* Pods_myFaultReporterTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A15BC05FF19E9BBF48EC67E14539F5CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				5B3335D5AE0DD673F8F50038D6B47717 /* Pods-myFaultReporter */,
+				B3F7523730FD576457BFDF8A61846752 /* Pods-myFaultReporterTests */,
+				3FD5713F6C78535FDF9A661DE1D50C07 /* Pods-myFaultReporterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B36FDE811AEFDED9998D201925C81AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA751543943515A1FDC43B4F22FEDFC1 /* Pods-myFaultReporterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D1ABD74B0EF5EC7C7EC77520DDAC0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9004D221261312CFE722A27B64C80005 /* Pods-myFaultReporterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6838C91EF55F63072FACB1E9B0E8D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958DFCE712930A4AE2A3B496EC894D51 /* Pods-myFaultReporter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A3EAD3F4435F83CF72009C73BBD8EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 900BEEF2A0B06C513FFB979B278AF14A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		377CA1909F566CE14E019355EE746B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C93DB8C9C9CE96BA0D5329E2D1620D /* Pods-myFaultReporterUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myFaultReporterUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFaultReporterUITests/Pods-myFaultReporterUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myFaultReporterUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4486AD0C49B5A5564F4AEB09CB558FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D6650505B1CE8063A47C3F4E668CBA /* Pods-myFaultReporterTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myFaultReporterTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFaultReporterTests/Pods-myFaultReporterTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myFaultReporterTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DC564B8EAF6C620D177963BF0643046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785CC24B95C1BC21A655148EF5CA0114 /* Pods-myFaultReporterTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myFaultReporterTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFaultReporterTests/Pods-myFaultReporterTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myFaultReporterTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90639DAC2AFE1E118609E99D0E23687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868C638A920132FCD6F343F087F1F168 /* Pods-myFaultReporterUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myFaultReporterUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFaultReporterUITests/Pods-myFaultReporterUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myFaultReporterUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D60CD877A708870E2BE96B83BA32F883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38F74B2DC0E0DDC771B62466C6A7E0A /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D85A039A3A399621AD937D65F4B558E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B504282E16589B757659B6F1B1452B08 /* Pods-myFaultReporter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myFaultReporter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFaultReporter/Pods-myFaultReporter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myFaultReporter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F066921CBDBDB5F45795E50FBC5AC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38F74B2DC0E0DDC771B62466C6A7E0A /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC3331A4EE5B7024894B7E25B4A2CD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7958DC062889AB8D8E26D3DD4C6592 /* Pods-myFaultReporter.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myFaultReporter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFaultReporter/Pods-myFaultReporter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myFaultReporter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E35144A4B8C9FA782D9D7304FFC3384 /* Build configuration list for PBXNativeTarget "Pods-myFaultReporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC564B8EAF6C620D177963BF0643046 /* Debug */,
+				4486AD0C49B5A5564F4AEB09CB558FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B938DADE9C35AB0045CF69C34052C3B4 /* Build configuration list for PBXNativeTarget "Pods-myFaultReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3331A4EE5B7024894B7E25B4A2CD45 /* Debug */,
+				D85A039A3A399621AD937D65F4B558E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60CD877A708870E2BE96B83BA32F883 /* Debug */,
+				F066921CBDBDB5F45795E50FBC5AC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F650B18F79FC01FE7AA7E2E8A82979AF /* Build configuration list for PBXNativeTarget "Pods-myFaultReporterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377CA1909F566CE14E019355EE746B12 /* Debug */,
+				90639DAC2AFE1E118609E99D0E23687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

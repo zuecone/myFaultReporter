@@ -15,6 +15,16 @@
 		32099CCB1E8DA2990001F5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32099CC91E8DA2990001F5C0 /* LaunchScreen.storyboard */; };
 		32099CD61E8DA29A0001F5C0 /* myFaultReporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32099CD51E8DA29A0001F5C0 /* myFaultReporterTests.swift */; };
 		32099CE11E8DA29A0001F5C0 /* myFaultReporterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32099CE01E8DA29A0001F5C0 /* myFaultReporterUITests.swift */; };
+		32099D391E8DA52C0001F5C0 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 32099D301E8DA52C0001F5C0 /* GeoFire.m */; };
+		32099D3A1E8DA52C0001F5C0 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 32099D321E8DA52C0001F5C0 /* GFBase32Utils.m */; };
+		32099D3B1E8DA52C0001F5C0 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 32099D341E8DA52C0001F5C0 /* GFGeoHash.m */; };
+		32099D3C1E8DA52C0001F5C0 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 32099D361E8DA52C0001F5C0 /* GFGeoHashQuery.m */; };
+		32099D3D1E8DA52C0001F5C0 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 32099D381E8DA52C0001F5C0 /* GFQuery.m */; };
+		32099D411E8DA5740001F5C0 /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32099D401E8DA5740001F5C0 /* PokeAnnotation.swift */; };
+		32C600391E8EDA6B00A41159 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32C600381E8EDA6B00A41159 /* GoogleService-Info.plist */; };
+		358033CC8C1D527D52B52065 /* Pods_myFaultReporterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1D756E0CC21544A3DF057C /* Pods_myFaultReporterTests.framework */; };
+		C118FB3F7EB25C429A5ADDB3 /* Pods_myFaultReporterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7685581253C4F3F372CF49 /* Pods_myFaultReporterUITests.framework */; };
+		E7E646318359F41DB91A5216 /* Pods_myFaultReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0532D407454BD067CBCDDA /* Pods_myFaultReporter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,33 @@
 		32099CDC1E8DA29A0001F5C0 /* myFaultReporterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFaultReporterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32099CE01E8DA29A0001F5C0 /* myFaultReporterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFaultReporterUITests.swift; sourceTree = "<group>"; };
 		32099CE21E8DA29A0001F5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32099D231E8DA5170001F5C0 /* myFaultReporter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myFaultReporter-Bridging-Header.h"; sourceTree = "<group>"; };
+		32099D291E8DA52C0001F5C0 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		32099D2A1E8DA52C0001F5C0 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		32099D2B1E8DA52C0001F5C0 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		32099D2C1E8DA52C0001F5C0 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		32099D2D1E8DA52C0001F5C0 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		32099D2F1E8DA52C0001F5C0 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		32099D301E8DA52C0001F5C0 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		32099D311E8DA52C0001F5C0 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		32099D321E8DA52C0001F5C0 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		32099D331E8DA52C0001F5C0 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		32099D341E8DA52C0001F5C0 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		32099D351E8DA52C0001F5C0 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		32099D361E8DA52C0001F5C0 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		32099D371E8DA52C0001F5C0 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		32099D381E8DA52C0001F5C0 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		32099D401E8DA5740001F5C0 /* PokeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
+		32C600381E8EDA6B00A41159 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D7685581253C4F3F372CF49 /* Pods_myFaultReporterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myFaultReporterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB38621C6EDFC11CFD0A2AB /* Pods-myFaultReporterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFaultReporterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myFaultReporterUITests/Pods-myFaultReporterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CED3A8A61A677DD5C3227DB /* Pods-myFaultReporterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFaultReporterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myFaultReporterTests/Pods-myFaultReporterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A1A09FB21782955D6C740A2 /* Pods-myFaultReporterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFaultReporterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myFaultReporterUITests/Pods-myFaultReporterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F1D756E0CC21544A3DF057C /* Pods_myFaultReporterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myFaultReporterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C3F30014B35B2E6C516A8E /* Pods-myFaultReporterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFaultReporterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myFaultReporterTests/Pods-myFaultReporterTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D0532D407454BD067CBCDDA /* Pods_myFaultReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myFaultReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B65230A33F1E856BCA3065 /* Pods-myFaultReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFaultReporter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myFaultReporter/Pods-myFaultReporter.debug.xcconfig"; sourceTree = "<group>"; };
+		F9A2EBF146FEF7DA5EB5E49C /* Pods-myFaultReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFaultReporter.release.xcconfig"; path = "Pods/Target Support Files/Pods-myFaultReporter/Pods-myFaultReporter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E646318359F41DB91A5216 /* Pods_myFaultReporter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358033CC8C1D527D52B52065 /* Pods_myFaultReporterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +109,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C118FB3F7EB25C429A5ADDB3 /* Pods_myFaultReporterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11C9176CCA176B23C844110B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9B65230A33F1E856BCA3065 /* Pods-myFaultReporter.debug.xcconfig */,
+				F9A2EBF146FEF7DA5EB5E49C /* Pods-myFaultReporter.release.xcconfig */,
+				6CED3A8A61A677DD5C3227DB /* Pods-myFaultReporterTests.debug.xcconfig */,
+				94C3F30014B35B2E6C516A8E /* Pods-myFaultReporterTests.release.xcconfig */,
+				3EB38621C6EDFC11CFD0A2AB /* Pods-myFaultReporterUITests.debug.xcconfig */,
+				7A1A09FB21782955D6C740A2 /* Pods-myFaultReporterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		32099CB11E8DA2990001F5C0 = {
 			isa = PBXGroup;
 			children = (
+				32099D271E8DA52C0001F5C0 /* GeoFire */,
 				32099CBC1E8DA2990001F5C0 /* myFaultReporter */,
 				32099CD41E8DA29A0001F5C0 /* myFaultReporterTests */,
 				32099CDF1E8DA29A0001F5C0 /* myFaultReporterUITests */,
 				32099CBB1E8DA2990001F5C0 /* Products */,
+				11C9176CCA176B23C844110B /* Pods */,
+				5719C01800A10E6AB845BF0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +155,16 @@
 		32099CBC1E8DA2990001F5C0 /* myFaultReporter */ = {
 			isa = PBXGroup;
 			children = (
+				32099D3F1E8DA5590001F5C0 /* Controller */,
+				32099D3E1E8DA5530001F5C0 /* Model */,
 				32099CBD1E8DA2990001F5C0 /* AppDelegate.swift */,
-				32099CBF1E8DA2990001F5C0 /* ViewController.swift */,
 				32099CC11E8DA2990001F5C0 /* Main.storyboard */,
 				32099CC71E8DA2990001F5C0 /* Assets.xcassets */,
 				32099CC91E8DA2990001F5C0 /* LaunchScreen.storyboard */,
 				32099CCC1E8DA2990001F5C0 /* Info.plist */,
 				32099CC41E8DA2990001F5C0 /* myFaultReporter.xcdatamodeld */,
+				32099D231E8DA5170001F5C0 /* myFaultReporter-Bridging-Header.h */,
+				32C600381E8EDA6B00A41159 /* GoogleService-Info.plist */,
 			);
 			path = myFaultReporter;
 			sourceTree = "<group>";
@@ -128,6 +187,70 @@
 			path = myFaultReporterUITests;
 			sourceTree = "<group>";
 		};
+		32099D271E8DA52C0001F5C0 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				32099D281E8DA52C0001F5C0 /* API */,
+				32099D2D1E8DA52C0001F5C0 /* GeoFire-Prefix.pch */,
+				32099D2E1E8DA52C0001F5C0 /* Implementation */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		32099D281E8DA52C0001F5C0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				32099D291E8DA52C0001F5C0 /* GeoFire.h */,
+				32099D2A1E8DA52C0001F5C0 /* GFCircleQuery.h */,
+				32099D2B1E8DA52C0001F5C0 /* GFQuery.h */,
+				32099D2C1E8DA52C0001F5C0 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		32099D2E1E8DA52C0001F5C0 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				32099D2F1E8DA52C0001F5C0 /* GeoFire+Private.h */,
+				32099D301E8DA52C0001F5C0 /* GeoFire.m */,
+				32099D311E8DA52C0001F5C0 /* GFBase32Utils.h */,
+				32099D321E8DA52C0001F5C0 /* GFBase32Utils.m */,
+				32099D331E8DA52C0001F5C0 /* GFGeoHash.h */,
+				32099D341E8DA52C0001F5C0 /* GFGeoHash.m */,
+				32099D351E8DA52C0001F5C0 /* GFGeoHashQuery.h */,
+				32099D361E8DA52C0001F5C0 /* GFGeoHashQuery.m */,
+				32099D371E8DA52C0001F5C0 /* GFQuery+Private.h */,
+				32099D381E8DA52C0001F5C0 /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		32099D3E1E8DA5530001F5C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32099D401E8DA5740001F5C0 /* PokeAnnotation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		32099D3F1E8DA5590001F5C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32099CBF1E8DA2990001F5C0 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5719C01800A10E6AB845BF0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D0532D407454BD067CBCDDA /* Pods_myFaultReporter.framework */,
+				8F1D756E0CC21544A3DF057C /* Pods_myFaultReporterTests.framework */,
+				3D7685581253C4F3F372CF49 /* Pods_myFaultReporterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32099CE51E8DA29A0001F5C0 /* Build configuration list for PBXNativeTarget "myFaultReporter" */;
 			buildPhases = (
+				C38ABB6FD91095788A35303E /* [CP] Check Pods Manifest.lock */,
 				32099CB61E8DA2990001F5C0 /* Sources */,
 				32099CB71E8DA2990001F5C0 /* Frameworks */,
 				32099CB81E8DA2990001F5C0 /* Resources */,
+				07294D7961EC645CD197686F /* [CP] Embed Pods Frameworks */,
+				2004992FBC30ABECBEF2D834 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32099CE81E8DA29A0001F5C0 /* Build configuration list for PBXNativeTarget "myFaultReporterTests" */;
 			buildPhases = (
+				8992E65410DEAF38659A5416 /* [CP] Check Pods Manifest.lock */,
 				32099CCD1E8DA29A0001F5C0 /* Sources */,
 				32099CCE1E8DA29A0001F5C0 /* Frameworks */,
 				32099CCF1E8DA29A0001F5C0 /* Resources */,
+				A35AFB6804F0D75E06CC6E2E /* [CP] Embed Pods Frameworks */,
+				F214F0003C961C85CD8DCB44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32099CEB1E8DA29A0001F5C0 /* Build configuration list for PBXNativeTarget "myFaultReporterUITests" */;
 			buildPhases = (
+				E846569F62A2D40D3BFB1125 /* [CP] Check Pods Manifest.lock */,
 				32099CD81E8DA29A0001F5C0 /* Sources */,
 				32099CD91E8DA29A0001F5C0 /* Frameworks */,
 				32099CDA1E8DA29A0001F5C0 /* Resources */,
+				7CE6801041389CCC6512AC21 /* [CP] Embed Pods Frameworks */,
+				7C078A2BC6AD0937BA719B30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +328,8 @@
 				TargetAttributes = {
 					32099CB91E8DA2990001F5C0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8N5N659ZB9;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					32099CD01E8DA29A0001F5C0 = {
@@ -236,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32099CCB1E8DA2990001F5C0 /* LaunchScreen.storyboard in Resources */,
+				32C600391E8EDA6B00A41159 /* GoogleService-Info.plist in Resources */,
 				32099CC81E8DA2990001F5C0 /* Assets.xcassets in Resources */,
 				32099CC31E8DA2990001F5C0 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +392,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07294D7961EC645CD197686F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myFaultReporter/Pods-myFaultReporter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2004992FBC30ABECBEF2D834 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myFaultReporter/Pods-myFaultReporter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C078A2BC6AD0937BA719B30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myFaultReporterUITests/Pods-myFaultReporterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CE6801041389CCC6512AC21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myFaultReporterUITests/Pods-myFaultReporterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8992E65410DEAF38659A5416 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A35AFB6804F0D75E06CC6E2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myFaultReporterTests/Pods-myFaultReporterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38ABB6FD91095788A35303E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E846569F62A2D40D3BFB1125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F214F0003C961C85CD8DCB44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myFaultReporterTests/Pods-myFaultReporterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32099CB61E8DA2990001F5C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				32099CC01E8DA2990001F5C0 /* ViewController.swift in Sources */,
+				32099D3A1E8DA52C0001F5C0 /* GFBase32Utils.m in Sources */,
+				32099D3C1E8DA52C0001F5C0 /* GFGeoHashQuery.m in Sources */,
+				32099D391E8DA52C0001F5C0 /* GeoFire.m in Sources */,
 				32099CC61E8DA2990001F5C0 /* myFaultReporter.xcdatamodeld in Sources */,
+				32099D3B1E8DA52C0001F5C0 /* GFGeoHash.m in Sources */,
 				32099CBE1E8DA2990001F5C0 /* AppDelegate.swift in Sources */,
+				32099D411E8DA5740001F5C0 /* PokeAnnotation.swift in Sources */,
+				32099D3D1E8DA52C0001F5C0 /* GFQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,30 +693,44 @@
 		};
 		32099CE61E8DA29A0001F5C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B65230A33F1E856BCA3065 /* Pods-myFaultReporter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8N5N659ZB9;
 				INFOPLIST_FILE = myFaultReporter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiddenplatform.myFaultReporter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myFaultReporter/myFaultReporter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		32099CE71E8DA29A0001F5C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A2EBF146FEF7DA5EB5E49C /* Pods-myFaultReporter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8N5N659ZB9;
 				INFOPLIST_FILE = myFaultReporter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiddenplatform.myFaultReporter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myFaultReporter/myFaultReporter-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		32099CE91E8DA29A0001F5C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CED3A8A61A677DD5C3227DB /* Pods-myFaultReporterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +745,7 @@
 		};
 		32099CEA1E8DA29A0001F5C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C3F30014B35B2E6C516A8E /* Pods-myFaultReporterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +760,7 @@
 		};
 		32099CEC1E8DA29A0001F5C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB38621C6EDFC11CFD0A2AB /* Pods-myFaultReporterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = myFaultReporterUITests/Info.plist;
@@ -479,6 +774,7 @@
 		};
 		32099CED1E8DA29A0001F5C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1A09FB21782955D6C740A2 /* Pods-myFaultReporterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = myFaultReporterUITests/Info.plist;
@@ -509,6 +805,7 @@
 				32099CE71E8DA29A0001F5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32099CE81E8DA29A0001F5C0 /* Build configuration list for PBXNativeTarget "myFaultReporterTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +814,7 @@
 				32099CEA1E8DA29A0001F5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32099CEB1E8DA29A0001F5C0 /* Build configuration list for PBXNativeTarget "myFaultReporterUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +823,7 @@
 				32099CED1E8DA29A0001F5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

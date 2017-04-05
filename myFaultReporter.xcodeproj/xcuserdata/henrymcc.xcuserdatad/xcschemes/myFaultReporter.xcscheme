@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "32099CB91E8DA2990001F5C0"
+               BuildableName = "myFaultReporter.app"
+               BlueprintName = "myFaultReporter"
+               ReferencedContainer = "container:myFaultReporter.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "32099CD01E8DA29A0001F5C0"
+               BuildableName = "myFaultReporterTests.xctest"
+               BlueprintName = "myFaultReporterTests"
+               ReferencedContainer = "container:myFaultReporter.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "32099CDB1E8DA29A0001F5C0"
+               BuildableName = "myFaultReporterUITests.xctest"
+               BlueprintName = "myFaultReporterUITests"
+               ReferencedContainer = "container:myFaultReporter.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "32099CB91E8DA2990001F5C0"
+            BuildableName = "myFaultReporter.app"
+            BlueprintName = "myFaultReporter"
+            ReferencedContainer = "container:myFaultReporter.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "32099CB91E8DA2990001F5C0"
+            BuildableName = "myFaultReporter.app"
+            BlueprintName = "myFaultReporter"
+            ReferencedContainer = "container:myFaultReporter.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "32099CB91E8DA2990001F5C0"
+            BuildableName = "myFaultReporter.app"
+            BlueprintName = "myFaultReporter"
+            ReferencedContainer = "container:myFaultReporter.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
